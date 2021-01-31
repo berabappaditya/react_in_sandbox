@@ -1,0 +1,69 @@
+.App {
+  font-family: Rubik;  
+  margin: 20% 100px -20px 100px;
+  
+}
+#first{
+  background-image: linear-gradient(45deg,#8A2387, #E94057,#F27121);
+  color:white;
+  padding: 20px 30px 30px 30px;
+  border-radius: 5px 5px 0px 0px;
+
+}
+#second{
+  background-image: linear-gradient(135deg, rgb(180, 159, 159),rgb(201, 187, 187),rgb(180, 159, 159)); 
+
+  margin-top: -25px;
+  padding: 30px;
+  
+
+}
+#one{
+  border-radius: 5px 5px 5px 5px;
+  padding:20px;
+  background-image:linear-gradient(135deg,rgba(240, 240, 240, 0.349),rgba(253, 246, 246, 0.26));
+  transition: 1s ease;
+  margin-bottom:10px; 
+ }
+ 
+#one:hover{
+  box-shadow: 0 10px 50px 0 rgba(0, 0, 0, 0.5);
+  -webkit-transform: scale(1.01);
+-ms-transform: scale(1.01);
+transform: scale(1.01);
+transition: 1s ease;
+opacity: 95%;
+}
+
+
+#two{
+  border-radius: 5px 5px 5px 5px;
+  padding:20px;
+  background-image:linear-gradient(135deg,rgba(240, 240, 240, 0.349),rgba(253, 246, 246, 0.26));
+  transition: 1s ease;
+  margin-bottom:10px; 
+ }
+ 
+#two:hover{
+  box-shadow: 0 10px 50px 0 rgba(0, 0, 0, 0.5);
+  -webkit-transform: scale(1.01);
+-ms-transform: scale(1.01);
+transform: scale(1.01);
+transition: 1s ease;
+opacity: 95%;
+}
+#three{
+  border-radius: 5px 5px 5px 5px;
+  padding:20px;
+  background-image:linear-gradient(135deg,rgba(240, 240, 240, 0.349),rgba(253, 246, 246, 0.26));
+  transition: 1s ease;
+ }
+ 
+#three:hover{
+  box-shadow: 0 10px 50px 0 rgba(0, 0, 0, 0.5);
+  -webkit-transform: scale(1.01);
+-ms-transform: scale(1.01);
+transform: scale(1.01);
+transition: 1s ease;
+opacity: 95%;
+}
